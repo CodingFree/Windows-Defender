@@ -1,4 +1,7 @@
 ## How to Wololo Windows Defender ##
+
+Full post: http://www.codingfree.com/how-to-wololo-windows-defender/
+
 It has some basic functions:
 
     -scan: Scans the current directory in "hardcore mode". What do I mean by hardcore mode? It sets the CPU usage to 80%, does a full scan and when it finishes the scan, it restore the optimized settings. It is useful if you want to make a full scan and you want to do it as faster as possible.
