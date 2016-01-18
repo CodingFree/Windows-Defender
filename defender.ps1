@@ -46,7 +46,7 @@ function Optimize-Settings{
   Set-MpPreference -ThreatIDDefaultAction_Actions 2 # Quarantine by default
   #List of actions: https://msdn.microsoft.com/es-es/library/windows/desktop/dn439474%28v=vs.85%29.aspx
   Set-MpPreference -ScanAvgCPULoadFactor 20
-  Set-MpPreference --ScanOnlyIfIdleEnabled $true # If CPU is idle, run scheduled scan.
+  Set-MpPreference -ScanOnlyIfIdleEnabled $true # If CPU is idle, run scheduled scan.
 }
 
 function Run-Hardcore-Scan{
